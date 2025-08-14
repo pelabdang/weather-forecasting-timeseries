@@ -1,0 +1,23 @@
+column,description
+date,Date and time of the observation.
+p,Atmospheric pressure in millibars (mbar).
+T,Air temperature in degrees Celsius (°C).
+Tpot,"Potential temperature in Kelvin (K), representing the temperature an air parcel would have if moved to a standard pressure level."
+Tdew,"Dew point temperature in degrees Celsius (°C), indicating the temperature at which air becomes saturated with moisture."
+rh,"Relative humidity as a percentage (%), showing the amount of moisture in the air relative to the maximum it can hold at that temperature."
+VPmax,"Maximum vapor pressure in millibars (mbar), representing the maximum pressure exerted by water vapor at the given temperature."
+VPact,"Actual vapor pressure in millibars (mbar), indicating the current water vapor pressure in the air."
+VPdef,"Vapor pressure deficit in millibars (mbar), measuring the difference between maximum and actual vapor pressure, used to gauge drying potential."
+sh,"Specific humidity in grams per kilogram (g/kg), showing the mass of water vapor per kilogram of air."
+H2OC,Concentration of water vapor in millimoles per mole (mmol/mol) of dry air.
+rho,"Air density in grams per cubic meter (g/m³), reflecting the mass of air per unit volume."
+wv,"Wind speed in meters per second (m/s), measuring the horizontal motion of air."
+max. wv,"Maximum wind speed in meters per second (m/s), indicating the highest recorded wind speed over the period."
+wd,"Wind direction in degrees (°), representing the direction from which the wind is blowing."
+rain,"Total rainfall in millimeters (mm), showing the amount of precipitation over the observation period."
+raining,"Duration of rainfall in seconds (s), recording the time for which rain occurred during the observation period."
+SWDR,"Short-wave downward radiation in watts per square meter (W/m²), measuring incoming solar radiation."
+PAR,"Photosynthetically active radiation in micromoles per square meter per second (µmol/m²/s), indicating the amount of light available for photosynthesis."
+max. PAR,Maximum photosynthetically active radiation recorded in the observation period in µmol/m²/s.
+Tlog,"Temperature logged in degrees Celsius (°C), potentially from a secondary sensor or logger."
+OT,"Likely refers to an operational timestamp or an offset in time, but may need clarification depending on the dataset's context."
