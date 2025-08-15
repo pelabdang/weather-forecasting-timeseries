@@ -242,6 +242,7 @@ def _delta_features(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+
 def _plot_correlation_matrix(corr: pd.DataFrame) -> None:
     """
     Create and display a correlation matrix heatmap.
@@ -328,7 +329,7 @@ def _plot_weather_patterns(df: pd.DataFrame, feature: str) -> None:
     plt.show()
 
 
-def _plot_boxplot(df: pd.DataFrame, feature: str, group: str, hue: str = None) -> None:
+def _plot_boxplot(df: pd.DataFrame, feature: str, group: str, hue: str = None) -> None: # type: ignore
     """
     Create a grouped boxplot for weather feature analysis with robust data handling.
 
@@ -359,7 +360,7 @@ def _plot_boxplot(df: pd.DataFrame, feature: str, group: str, hue: str = None) -
 
     # Create color palette with appropriate number of colors
     if hue:
-        palette = sns.color_palette("husl", len(hue_order))
+        palette = sns.color_palette("husl", len(hue_order)) # type: ignore
     else:
         palette = sns.color_palette("husl", len(order))
 
